@@ -10,6 +10,17 @@ resource_group = {
   "rg_name"    = "preprod-rg02"
 
 }
+
+    rg03 = {
+  "rg_location" = "centralindia"
+  "rg_name"    = "preprod-rg03"
+
+}
+    rg04 = {
+  "rg_location" = "centralindia"
+  "rg_name"    = "preprod-rg04"
+
+}
 }
 
 
@@ -24,7 +35,7 @@ storage_account = {
 }
     sa02 = {
   "storage_account_name" = "preprodsa02"
-  "rgname"             = "preprod-rg01"
+  "rgname"             = "preprod-rg02"
   "location"            = "centralindia"
   "account_tier"        = "Standard"
   "arl" =      "LRS"
@@ -32,7 +43,7 @@ storage_account = {
 }
     sa03 = {
   "storage_account_name" = "preprodsa03"
-  "rgname"             = "preprod-rg02"
+  "rgname"             = "preprod-rg03"
   "location"            = "centralindia"
   "account_tier"        = "Standard"
   "arl" =      "LRS"
@@ -40,7 +51,7 @@ storage_account = {
 
     sa04 = {
   "storage_account_name" = "preprodsa04"
-  "rgname"             = "preprod-rg02"
+  "rgname"             = "preprod-rg04"
   "location"            = "centralindia"
   "account_tier"        = "Standard"
   "arl" =      "LRS"
