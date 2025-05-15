@@ -37,4 +37,12 @@ storage_account = {
   "account_tier"        = "Standard"
   "arl" =      "LRS"
 }
+
+    sa04 = {
+  "storage_account_name" = "preprodsa04"
+  "rgname"             = "preprod-rg02"
+  "location"            = "centralindia"
+  "account_tier"        = "Standard"
+  "arl" =      "LRS"
+}
 }
